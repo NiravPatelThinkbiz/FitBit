@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D996428232265A3003CC1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D996427232265A3003CC1C1 /* AppDelegate.swift */; };
+		3D99642A232265A3003CC1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D996429232265A3003CC1C1 /* ViewController.swift */; };
+		3D99642D232265A3003CC1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99642B232265A3003CC1C1 /* Main.storyboard */; };
+		3D99642F232265A5003CC1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D99642E232265A5003CC1C1 /* Assets.xcassets */; };
+		3D996432232265A5003CC1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D996430232265A5003CC1C1 /* LaunchScreen.storyboard */; };
+		3D99643D232265A5003CC1C1 /* FitnessBeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99643C232265A5003CC1C1 /* FitnessBeltTests.swift */; };
+		3D996448232265A5003CC1C1 /* FitnessBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D996447232265A5003CC1C1 /* FitnessBeltUITests.swift */; };
+		3D99645D232267A7003CC1C1 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99645C232267A7003CC1C1 /* BluetoothManager.swift */; };
+		3D99646223226BAE003CC1C1 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99646123226BAE003CC1C1 /* ServicesVC.swift */; };
+		3D99646423227D33003CC1C1 /* CBUUID+LightBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99646323227D33003CC1C1 /* CBUUID+LightBlue.swift */; };
+		3D99646723227EF7003CC1C1 /* CharacteristicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99646623227EF7003CC1C1 /* CharacteristicsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D996439232265A5003CC1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D99641C232265A3003CC1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D996423232265A3003CC1C1;
+			remoteInfo = FitnessBelt;
+		};
+		3D996444232265A5003CC1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D99641C232265A3003CC1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D996423232265A3003CC1C1;
+			remoteInfo = FitnessBelt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D996424232265A3003CC1C1 /* FitnessBelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessBelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D996427232265A3003CC1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D996429232265A3003CC1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D99642C232265A3003CC1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D99642E232265A5003CC1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D996431232265A5003CC1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D996433232265A5003CC1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D996438232265A5003CC1C1 /* FitnessBeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessBeltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D99643C232265A5003CC1C1 /* FitnessBeltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBeltTests.swift; sourceTree = "<group>"; };
+		3D99643E232265A5003CC1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D996443232265A5003CC1C1 /* FitnessBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D996447232265A5003CC1C1 /* FitnessBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBeltUITests.swift; sourceTree = "<group>"; };
+		3D996449232265A5003CC1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D99645C232267A7003CC1C1 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		3D99646123226BAE003CC1C1 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		3D99646323227D33003CC1C1 /* CBUUID+LightBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBUUID+LightBlue.swift"; sourceTree = "<group>"; };
+		3D99646623227EF7003CC1C1 /* CharacteristicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D996421232265A3003CC1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D996435232265A5003CC1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D996440232265A5003CC1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D99641B232265A3003CC1C1 = {
+			isa = PBXGroup;
+			children = (
+				3D996426232265A3003CC1C1 /* FitnessBelt */,
+				3D99643B232265A5003CC1C1 /* FitnessBeltTests */,
+				3D996446232265A5003CC1C1 /* FitnessBeltUITests */,
+				3D996425232265A3003CC1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D996425232265A3003CC1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D996424232265A3003CC1C1 /* FitnessBelt.app */,
+				3D996438232265A5003CC1C1 /* FitnessBeltTests.xctest */,
+				3D996443232265A5003CC1C1 /* FitnessBeltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D996426232265A3003CC1C1 /* FitnessBelt */ = {
+			isa = PBXGroup;
+			children = (
+				3D99645E23226B83003CC1C1 /* Controller */,
+				3D99645623226710003CC1C1 /* Helper */,
+				3D996427232265A3003CC1C1 /* AppDelegate.swift */,
+				3D99642B232265A3003CC1C1 /* Main.storyboard */,
+				3D99642E232265A5003CC1C1 /* Assets.xcassets */,
+				3D996430232265A5003CC1C1 /* LaunchScreen.storyboard */,
+				3D996433232265A5003CC1C1 /* Info.plist */,
+			);
+			path = FitnessBelt;
+			sourceTree = "<group>";
+		};
+		3D99643B232265A5003CC1C1 /* FitnessBeltTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D99643C232265A5003CC1C1 /* FitnessBeltTests.swift */,
+				3D99643E232265A5003CC1C1 /* Info.plist */,
+			);
+			path = FitnessBeltTests;
+			sourceTree = "<group>";
+		};
+		3D996446232265A5003CC1C1 /* FitnessBeltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D996447232265A5003CC1C1 /* FitnessBeltUITests.swift */,
+				3D996449232265A5003CC1C1 /* Info.plist */,
+			);
+			path = FitnessBeltUITests;
+			sourceTree = "<group>";
+		};
+		3D99645623226710003CC1C1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D99646323227D33003CC1C1 /* CBUUID+LightBlue.swift */,
+				3D99645B2322679F003CC1C1 /* BluetoothManager */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3D99645B2322679F003CC1C1 /* BluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D99645C232267A7003CC1C1 /* BluetoothManager.swift */,
+			);
+			path = BluetoothManager;
+			sourceTree = "<group>";
+		};
+		3D99645E23226B83003CC1C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D99646523227EDE003CC1C1 /* Characteristics */,
+				3D99646023226B98003CC1C1 /* Services */,
+				3D99645F23226B89003CC1C1 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D99645F23226B89003CC1C1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D996429232265A3003CC1C1 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D99646023226B98003CC1C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D99646123226BAE003CC1C1 /* ServicesVC.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3D99646523227EDE003CC1C1 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				3D99646623227EF7003CC1C1 /* CharacteristicsVC.swift */,
+			);
+			path = Characteristics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D996423232265A3003CC1C1 /* FitnessBelt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D99644C232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBelt" */;
+			buildPhases = (
+				3D996420232265A3003CC1C1 /* Sources */,
+				3D996421232265A3003CC1C1 /* Frameworks */,
+				3D996422232265A3003CC1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessBelt;
+			productName = FitnessBelt;
+			productReference = 3D996424232265A3003CC1C1 /* FitnessBelt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D996437232265A5003CC1C1 /* FitnessBeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D99644F232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBeltTests" */;
+			buildPhases = (
+				3D996434232265A5003CC1C1 /* Sources */,
+				3D996435232265A5003CC1C1 /* Frameworks */,
+				3D996436232265A5003CC1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D99643A232265A5003CC1C1 /* PBXTargetDependency */,
+			);
+			name = FitnessBeltTests;
+			productName = FitnessBeltTests;
+			productReference = 3D996438232265A5003CC1C1 /* FitnessBeltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D996442232265A5003CC1C1 /* FitnessBeltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D996452232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBeltUITests" */;
+			buildPhases = (
+				3D99643F232265A5003CC1C1 /* Sources */,
+				3D996440232265A5003CC1C1 /* Frameworks */,
+				3D996441232265A5003CC1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D996445232265A5003CC1C1 /* PBXTargetDependency */,
+			);
+			name = FitnessBeltUITests;
+			productName = FitnessBeltUITests;
+			productReference = 3D996443232265A5003CC1C1 /* FitnessBeltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D99641C232265A3003CC1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Nirav;
+				TargetAttributes = {
+					3D996423232265A3003CC1C1 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3D996437232265A5003CC1C1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D996423232265A3003CC1C1;
+					};
+					3D996442232265A5003CC1C1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D996423232265A3003CC1C1;
+					};
+				};
+			};
+			buildConfigurationList = 3D99641F232265A3003CC1C1 /* Build configuration list for PBXProject "FitnessBelt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D99641B232265A3003CC1C1;
+			productRefGroup = 3D996425232265A3003CC1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D996423232265A3003CC1C1 /* FitnessBelt */,
+				3D996437232265A5003CC1C1 /* FitnessBeltTests */,
+				3D996442232265A5003CC1C1 /* FitnessBeltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D996422232265A3003CC1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D996432232265A5003CC1C1 /* LaunchScreen.storyboard in Resources */,
+				3D99642F232265A5003CC1C1 /* Assets.xcassets in Resources */,
+				3D99642D232265A3003CC1C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D996436232265A5003CC1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D996441232265A5003CC1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D996420232265A3003CC1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D99646223226BAE003CC1C1 /* ServicesVC.swift in Sources */,
+				3D99646723227EF7003CC1C1 /* CharacteristicsVC.swift in Sources */,
+				3D99646423227D33003CC1C1 /* CBUUID+LightBlue.swift in Sources */,
+				3D99642A232265A3003CC1C1 /* ViewController.swift in Sources */,
+				3D99645D232267A7003CC1C1 /* BluetoothManager.swift in Sources */,
+				3D996428232265A3003CC1C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D996434232265A5003CC1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D99643D232265A5003CC1C1 /* FitnessBeltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D99643F232265A5003CC1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D996448232265A5003CC1C1 /* FitnessBeltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D99643A232265A5003CC1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D996423232265A3003CC1C1 /* FitnessBelt */;
+			targetProxy = 3D996439232265A5003CC1C1 /* PBXContainerItemProxy */;
+		};
+		3D996445232265A5003CC1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D996423232265A3003CC1C1 /* FitnessBelt */;
+			targetProxy = 3D996444232265A5003CC1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D99642B232265A3003CC1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D99642C232265A3003CC1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D996430232265A5003CC1C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D996431232265A5003CC1C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D99644A232265A5003CC1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D99644B232265A5003CC1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D99644D232265A5003CC1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L46MUQEACM;
+				INFOPLIST_FILE = FitnessBelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkbiz.FitnessBelt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ThinkBiz WildCard Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D99644E232265A5003CC1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L46MUQEACM;
+				INFOPLIST_FILE = FitnessBelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkbiz.FitnessBelt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ThinkBiz WildCard Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D996450232265A5003CC1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessBeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nirav.FitnessBeltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessBelt.app/FitnessBelt";
+			};
+			name = Debug;
+		};
+		3D996451232265A5003CC1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessBeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nirav.FitnessBeltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessBelt.app/FitnessBelt";
+			};
+			name = Release;
+		};
+		3D996453232265A5003CC1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessBeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nirav.FitnessBeltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessBelt;
+			};
+			name = Debug;
+		};
+		3D996454232265A5003CC1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitnessBeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nirav.FitnessBeltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessBelt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D99641F232265A3003CC1C1 /* Build configuration list for PBXProject "FitnessBelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D99644A232265A5003CC1C1 /* Debug */,
+				3D99644B232265A5003CC1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D99644C232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D99644D232265A5003CC1C1 /* Debug */,
+				3D99644E232265A5003CC1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D99644F232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBeltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D996450232265A5003CC1C1 /* Debug */,
+				3D996451232265A5003CC1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D996452232265A5003CC1C1 /* Build configuration list for PBXNativeTarget "FitnessBeltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D996453232265A5003CC1C1 /* Debug */,
+				3D996454232265A5003CC1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D99641C232265A3003CC1C1 /* Project object */;
+}
